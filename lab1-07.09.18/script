@@ -1,0 +1,82 @@
+#!/bin/ksh
+mkdir lab0
+cd lab0
+echo "Тип диеты  Herbivore" > exploud2
+mkdir glameow6
+cd glameow6
+mkdir skiploom
+echo "weigth=4.6 height=12.0 atk=6\ndef=5" > pidove
+mkdir staraptor
+{
+  echo "Ходы   After You Aqua Tail Covet Endeavor Fire Punch"
+  echo "Gunk  Shot Helping Hand Ice Punch Iron Tail Knock Off Last Resort Low"
+  echo "Kick‡ Seed Bomb Signal Beam Sleep Talk Snore Super Fang Thunderpuncnch"
+  echo "Zen Headbutt"
+} > watchog
+mkdir shelgon
+mkdir weedle
+cd ..
+mkdir gorebyss5
+cd gorebyss5
+mkdir nidoking
+mkdir mismagius
+mkdir kadabra
+cd ..
+echo "Способности  Torrent Marvel Scale Swift\nSwim" > milotic5
+{
+  echo "Способности  Sand-Attack Gust Quick Attack Whirlwind"
+  echo "Twister Featherdance Agility Wing Attack Roost Tailwind Mirror Move"
+  echo "Air Slash Hurricane"
+} > pidgeot7
+mkdir scizor0
+cd scizor0
+echo "Развитые способности\nDrizzle" > politoed
+echo "Развитые способности  Sheer" > croconaw
+echo "weigth=440.9 height=55.0 atk=10 def=13" > crustle
+cd ..
+chmod 666 exploud2
+chmod 764 glameow6
+cd glameow6
+chmod 751 skiploom
+chmod 620 pidove
+chmod 363 staraptor
+chmod 066 watchog
+chmod 700 shelgon
+chmod 335 weedle
+cd ..
+chmod 315 gorebyss5
+cd gorebyss5
+chmod 751 nidoking mismagius
+chmod 752 kadabra
+cd ..
+chmod 062 milotic5
+chmod 640 pidgeot7
+chmod 753 scizor0
+cd scizor0
+chmod 604 politoed
+chmod 400 croconaw
+chmod 046 crustle
+cd ..
+ln exploud2 glameow6/watchogexploud
+ln -s gorebyss5 Copy_97
+ln -s pidgeot7 scizor0/croconawpidgeot
+cat exploud2 > scizor0/croconawexploud
+chmod u+r gorebyss5
+cp -R gorebyss5/ glameow6/weedle/
+chmod u-r gorebyss5
+cat scizor0/croconaw scizor0/croconaw > milotic5_42
+chmod u+r milotic5
+cp milotic5 gorebyss5/mismagius/
+chmod u-r milotic5
+wc -l pidgeot7 >> pidgeot7 2> /tmp/trash
+ls -lRutr 2> /dev/null | head -4 | tail -2
+cat **/c* 2>> /tmp/trash | sort -r
+cat -n glameow6/pidove glameow6/watchog scizor0/politoed scizor0/croconaw | sort
+ls -lR | sort -n -k 2 | grep 'e$'
+wc -c exploud2 >> /tmp/trash 2>> /tmp/trash
+rm pidgeot7
+rm -f scizor0/crustle
+rm scizor0/croconawpidge*
+rm glameow6/watchogexplo*
+rm -rf scizor0
+rm -rf gorebyss5/mismagius
